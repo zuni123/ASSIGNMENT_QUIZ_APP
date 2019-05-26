@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:background="#547cb9"
     android:layout_height="match_parent"
-    tools:context="com.firetot.quizapptutorial.MainActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUIZ APP"
+        android:text="QUIZ APP "
         android:textSize="40sp"
         android:textColor="#ffffff"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"/>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -112,7 +113,7 @@
         android:layout_above="@+id/username"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="130dp"
         android:id="@+id/textView" />
 
     <TextView
@@ -122,7 +123,7 @@
         android:textSize="18sp"
         android:id="@+id/username"
         android:textColor="#ffffff"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="109dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
@@ -136,5 +137,34 @@
         android:layout_toEndOf="@+id/textView"
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Design and Developed By"
+        android:textAlignment="center"
+        android:layout_marginBottom="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="M Usman Asghar and Jaweria Riaz"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

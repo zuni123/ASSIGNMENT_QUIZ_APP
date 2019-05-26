@@ -135,4 +135,3 @@ public class HardActivity extends AppCompatActivity {
         finish();
     }
 }
-
