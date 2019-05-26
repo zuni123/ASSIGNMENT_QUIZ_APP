@@ -1,6 +1,6 @@
 # QuizApp &reg;
 <h2>Quiz-App&reg; Requirment</h2>
-<h3> &copy; All rights reserved by Jaweria Riaz & M Usman </h3></br>
+<h3> &copy; All rights reserved by Jaweria Riaz & M Usman Asghar </h3></br>
 <p>Android 3.3 or more</br>
 minimum sdk version 4.4 kitkat</p>
 
