@@ -44,9 +44,9 @@ public class HardActivity extends AppCompatActivity {
         falseQ = (ImageButton) findViewById(R.id.falseQ);
 
         skip = (RelativeLayout) findViewById(R.id.skip);
-        nr_skip.setText(""+dataHelper.receiveDataInt("SKIPP", SKIP_NUMBER));
+        nr_skip.setText(""+dataHelper.receiveDataInt("Skip", SKIP_NUMBER));
 
-        name_ingame.setText(dataHelper.receiveDataString("NAME", "User"));
+        name_ingame.setText(dataHelper.receiveDataString("Name", "User"));
 
         final String[] arrayQ = {getString(R.string.h1), getString(R.string.h2), getString(R.string.h3), getString(R.string.h4), getString(R.string.h5),
                 getString(R.string.h6), getString(R.string.h7), getString(R.string.h8), getString(R.string.h9), getString(R.string.h10)};
@@ -71,9 +71,9 @@ public class HardActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 nr_skip.setText(""+dataHelper.receiveDataInt("SKIPP",SKIP_NUMBER));
-                skipp = dataHelper.receiveDataInt("SKIPP", SKIP_NUMBER);
-                if (dataHelper.receiveDataInt("SKIPP", SKIP_NUMBER) == 0){
-                    Toast.makeText(HardActivity.this, "You have 0 skip", Toast.LENGTH_SHORT).show();
+                skipp = dataHelper.receiveDataInt("Skip", SKIP_NUMBER);
+                if (dataHelper.receiveDataInt("Skip", SKIP_NUMBER) == 0){
+                    Toast.makeText(HardActivity.this, "You have 0 Skip", Toast.LENGTH_SHORT).show();
                 }else{
                     skipp--;
                     questions.remove(n);
@@ -83,7 +83,7 @@ public class HardActivity extends AppCompatActivity {
                     }else {
                         n = r.nextInt(questions.size());
                         questionsText.setText(questions.get(n));
-                        dataHelper.saveDataInt("SKIPP", skipp);
+                        dataHelper.saveDataInt("Skip", skipp);
                     }
                 }
             }

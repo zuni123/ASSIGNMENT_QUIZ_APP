@@ -26,8 +26,8 @@ public class NormalResultActivity extends AppCompatActivity {
         tv_user = (TextView) findViewById(R.id.tv_user);
         home = (Button) findViewById(R.id.home);
 
-        int points = dataHelper.receiveDataInt("POINTSNORMAL", 0);
-        int best = dataHelper.receiveDataInt("BESTNORMAL", 0);
+        int points = dataHelper.receiveDataInt("PointsOfNormal", 0);
+        int best = dataHelper.receiveDataInt("BestNormal", 0);
 
         currentScore = (TextView) findViewById(R.id.currentPoints);
         bestScore = (TextView) findViewById(R.id.bestScore);

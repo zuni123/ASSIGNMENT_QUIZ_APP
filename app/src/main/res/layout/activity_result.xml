@@ -15,7 +15,7 @@
         android:textSize="18sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="Good luck next Time"/>
+        android:text="Better Luck Next Time"/>
 
     <TextView
         android:layout_width="wrap_content"

@@ -32,7 +32,7 @@ public class ResultActivity extends AppCompatActivity {
         currentScore = (TextView) findViewById(R.id.currentPoints);
         bestScore = (TextView) findViewById(R.id.bestScore);
 
-        tv_user.setText("Good luck next time, "+ dataHelper.receiveDataString("NAME", "User\n")+" \nApp is Design & Developed by \nM Usman Asghar & Jaweria Riaz");
+        tv_user.setText("Better Luck Next Time, "+ dataHelper.receiveDataString("NAME", "User\n"));
 
         currentScore.setText(""+points);
 

@@ -26,8 +26,8 @@ public class HardResultActivity extends AppCompatActivity {
         tv_user = (TextView) findViewById(R.id.tv_user);
         home = (Button) findViewById(R.id.home);
 
-        int points = dataHelper.receiveDataInt("POINTSHARD", 0);
-        int best = dataHelper.receiveDataInt("BESTHARD", 0);
+        int points = dataHelper.receiveDataInt("PointsHard", 0);
+        int best = dataHelper.receiveDataInt("BestHard", 0);
 
         currentScore = (TextView) findViewById(R.id.currentPoints);
         bestScore = (TextView) findViewById(R.id.bestScore);

@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         b_normal = (TextView) findViewById(R.id.b_normal);
         b_hard = (TextView) findViewById(R.id.b_hard);
 
-        b_easy.setText(""+dataHelper.receiveDataInt("BEST", 0));
-        b_normal.setText(""+dataHelper.receiveDataInt("BESTNORMAL", 0));
-        b_hard.setText(""+dataHelper.receiveDataInt("BESTHARD", 0));
+        b_easy.setText(""+dataHelper.receiveDataInt("Best", 0));
+        b_normal.setText(""+dataHelper.receiveDataInt("BestNormal", 0));
+        b_hard.setText(""+dataHelper.receiveDataInt("BestHard", 0));
 
         username.setText(dataHelper.receiveDataString("NAME", "User"));
 
